@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="24" viewBox="0 0 1200 24" role="presentation">
+  <defs>
+    <linearGradient id="divLeft" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#090A0F" stop-opacity="0"/>
+      <stop offset="68%" stop-color="#090A0F" stop-opacity="0.10"/>
+      <stop offset="100%" stop-color="#D83831" stop-opacity="0.72"/>
+    </linearGradient>
+    <linearGradient id="divRight" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF6B00" stop-opacity="0.72"/>
+      <stop offset="32%" stop-color="#090A0F" stop-opacity="0.10"/>
+      <stop offset="100%" stop-color="#090A0F" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="divStar" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#D83831"/>
+      <stop offset="100%" stop-color="#FF6B00"/>
+    </linearGradient>
+  </defs>
+  <line x1="20" y1="12" x2="574" y2="12" stroke="url(#divLeft)" stroke-width="1.2"/>
+  <line x1="626" y1="12" x2="1180" y2="12" stroke="url(#divRight)" stroke-width="1.2"/>
+  <circle cx="585" cy="12" r="2" fill="#D83831" opacity="0.75"/>
+  <path d="M 600 4 Q 601.2 10.8 608 12 Q 601.2 13.2 600 20 Q 598.8 13.2 592 12 Q 598.8 10.8 600 4 Z" fill="#FFFFFF" stroke="url(#divStar)" stroke-width="1.4"/>
+  <circle cx="615" cy="12" r="2" fill="#FF6B00" opacity="0.75"/>
+</svg>

@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="80" viewBox="0 0 1200 80" role="img" aria-label="Vision Orbital Tech">
+  <defs>
+    <clipPath id="footClip">
+      <rect width="1200" height="80" rx="14"/>
+    </clipPath>
+    <linearGradient id="footAccent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#D83831" stop-opacity="0"/>
+      <stop offset="25%" stop-color="#D83831" stop-opacity="0.9"/>
+      <stop offset="75%" stop-color="#FF6B00" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#FF6B00" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="footGlow" cx="50%" cy="100%" r="55%">
+      <stop offset="0%" stop-color="#EC511A" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#D83831" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="footGrid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M 28 0 L 0 0 0 28" fill="none" stroke="#FFFFFF" stroke-opacity="0.032" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <g clip-path="url(#footClip)">
+    <rect width="1200" height="80" fill="#050507"/>
+    <rect width="1200" height="80" fill="url(#footGrid)"/>
+    <rect width="1200" height="80" fill="url(#footGlow)"/>
+    <rect x="240" y="0" width="720" height="2" fill="url(#footAccent)"/>
+
+    <!-- Three mini VOT stars -->
+    <g transform="translate(600, 22)">
+      <path d="M -22 -4.5 Q -21.2 -0.8 -17.5 0 Q -21.2 0.8 -22 4.5 Q -22.8 0.8 -26.5 0 Q -22.8 -0.8 -22 -4.5 Z" fill="#D83831"/>
+      <path d="M 0 -6 Q 1 -1 6 0 Q 1 1 0 6 Q -1 1 -6 0 Q -1 -1 0 -6 Z" fill="#EC511A"/>
+      <path d="M 22 -4.5 Q 22.8 -0.8 26.5 0 Q 22.8 0.8 22 4.5 Q 21.2 0.8 17.5 0 Q 21.2 -0.8 22 -4.5 Z" fill="#FF6B00"/>
+    </g>
+
+    <text x="600" y="47" text-anchor="middle" fill="#D4D6E0" font-family="'Segoe UI',-apple-system,BlinkMacSystemFont,'Inter',Arial,sans-serif" font-size="13.5" font-weight="500">Tecnologia, inteligência e inovação aplicadas a resultados reais.</text>
+    <text x="600" y="65" text-anchor="middle" fill="#8B8E9B" font-family="'JetBrains Mono','Cascadia Code',ui-monospace,Consolas,monospace" font-size="10" font-weight="600" letter-spacing="2.2">VISION ORBITAL TECH  ·  JOÃO GABRIEL LOUREIRO</text>
+  </g>
+  <rect x="0.5" y="0.5" width="1199" height="79" rx="13.5" fill="none" stroke="rgba(255,255,255,0.09)" stroke-width="1"/>
+</svg>
