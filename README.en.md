@@ -73,19 +73,32 @@ Projects featured in **[@vot.tech](https://www.instagram.com/vot.tech/)** videos
 
 <table>
   <tr>
-    <td width="100%" valign="top">
-      <h3>Collection Store — Zero-DB Storefront & Edge Admin Panel</h3>
-      <p><sub><code>CASE · @VOT.TECH VIDEO</code> &nbsp;·&nbsp; <code>ZERO-DB ARCHITECTURE</code> &nbsp;·&nbsp; <code>PUBLIC REPO COMING SOON</code></sub></p>
-      <p>Customizable storefront and landing page with automated WhatsApp order checkout and an edge-protected admin panel on Cloudflare — running without a traditional database.</p>
+    <td width="58%" valign="top">
+      <h3><a href="https://github.com/LRGabrieldev/collection-store-demo">Collection Store — Interactive Storefront & Admin Panel</a></h3>
+      <p><sub><code>PUBLIC SHOWCASE · @VOT.TECH VIDEO</code> &nbsp;·&nbsp; <code>ZERO DEPENDENCIES</code> &nbsp;·&nbsp; <code>EDGE AUTH</code></sub></p>
+      <p><em>"One problem, one digital solution"</em> — interactive 10-department boutique storefront with background item selection, automated WhatsApp order checkout, and a demo admin panel.</p>
       <ul>
-        <li><b>Zero-DB Architecture:</b> catalog management through <code>/painel/</code> publishing updates via atomic commits, cutting recurring hosting/DB costs by ~97%.</li>
-        <li><b>Edge Security:</b> Cloudflare Pages Functions authentication with signed HMAC-SHA256 <code>HttpOnly</code> sessions and CSRF protection.</li>
-        <li><b>Direct Conversion:</b> interactive product selection generating a formatted order summary sent straight to WhatsApp.</li>
+        <li><b>Storefront & WhatsApp Checkout:</b> variation selection with local persistence and one-click formatted order summary sent directly to WhatsApp.</li>
+        <li><b>Admin Panel & Edge Auth:</b> visual catalog CRUD at <code>/painel/</code> with in-browser image compression, <code>catalog.json</code> export, and Cloudflare Pages Functions edge authentication (signed HMAC-SHA256 <code>HttpOnly</code> cookie).</li>
+        <li><b>Zero dependencies:</b> built in vanilla HTML5, CSS3, and JavaScript — lightweight and ready to run locally.</li>
       </ul>
-      <p><code>JavaScript</code> <code>HTML5</code> <code>CSS3</code> <code>Cloudflare Pages Functions</code> <code>GitHub API</code></p>
-      <!-- When the public repo and/or video are ready, add links here:
-      <p><a href="REPO_URL">View public repository →</a> &nbsp;·&nbsp; <a href="VIDEO_URL">Watch video →</a></p>
-      -->
+      <p><code>JavaScript</code> <code>HTML5</code> <code>CSS3</code> <code>Cloudflare Pages Functions</code></p>
+      <p>
+        <a href="https://github.com/LRGabrieldev/collection-store-demo"><b>View public repository →</b></a>
+        &nbsp;·&nbsp;
+        <a href="https://github.com/LRGabrieldev/collection-store-demo#tour-animado-pela-aplica%C3%A7%C3%A3o">Animated tour →</a>
+        <!-- When the video is published on @vot.tech, uncomment:
+        &nbsp;·&nbsp;
+        <a href="VIDEO_URL">Watch video →</a>
+        -->
+      </p>
+    </td>
+    <td width="42%" valign="middle" align="center">
+      <a href="https://github.com/LRGabrieldev/collection-store-demo">
+        <img src="https://raw.githubusercontent.com/LRGabrieldev/collection-store-demo/main/docs/preview-hero.png" alt="Collection Store interactive storefront preview" width="100%" />
+      </a>
+      <br /><br />
+      <sub><a href="https://github.com/LRGabrieldev/collection-store-demo#tour-animado-pela-aplica%C3%A7%C3%A3o">View 5-screen animated tour & source code →</a></sub>
     </td>
   </tr>
 </table>

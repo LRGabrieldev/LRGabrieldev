@@ -73,19 +73,32 @@ Projetos apresentados nos vídeos da **[@vot.tech](https://www.instagram.com/vot
 
 <table>
   <tr>
-    <td width="100%" valign="top">
-      <h3>Collection Store — Vitrine & Painel Admin sem Banco de Dados</h3>
-      <p><sub><code>CASE · VÍDEO @VOT.TECH</code> &nbsp;·&nbsp; <code>ARQUITETURA ZERO-DB</code> &nbsp;·&nbsp; <code>REPOSITÓRIO PÚBLICO EM BREVE</code></sub></p>
-      <p>Vitrine e landing page personalizável com geração automática de pedido no WhatsApp e painel administrativo protegido na borda da Cloudflare — operando sem banco de dados tradicional.</p>
+    <td width="58%" valign="top">
+      <h3><a href="https://github.com/LRGabrieldev/collection-store-demo">Collection Store — Vitrine & Painel Admin</a></h3>
+      <p><sub><code>SHOWCASE PÚBLICO · VÍDEO @VOT.TECH</code> &nbsp;·&nbsp; <code>ZERO DEPENDÊNCIAS</code> &nbsp;·&nbsp; <code>EDGE AUTH</code></sub></p>
+      <p><em>"Um problema, uma solução digital"</em> — vitrine interativa em 10 departamentos com seleção de itens em background, pedido automático no WhatsApp e painel administrativo em modo demonstrativo.</p>
       <ul>
-        <li><b>Arquitetura Zero-DB:</b> gerenciamento de produtos pelo painel <code>/painel/</code> com publicação via commits atômicos, reduzindo custos recorrentes em ~97%.</li>
-        <li><b>Segurança na borda:</b> autenticação via Cloudflare Pages Functions com sessão assinada (HMAC-SHA256 em cookie <code>HttpOnly</code>) e proteção CSRF.</li>
-        <li><b>Conversão direta:</b> seleção interativa de itens com resumo automático formatado direto para finalização no WhatsApp.</li>
+        <li><b>Vitrine & Checkout WhatsApp:</b> escolha de variações com persistência local e geração automática de mensagem formatada em 1 clique.</li>
+        <li><b>Painel Admin & Edge Auth:</b> gerenciamento visual do catálogo em <code>/painel/</code> com compressão de fotos no navegador, exportação <code>catalog.json</code> e autenticação na borda via Cloudflare Pages Functions (HMAC-SHA256 em cookie <code>HttpOnly</code>).</li>
+        <li><b>Zero dependências:</b> construído em HTML5, CSS3 e JavaScript puro — leve e pronto para rodar localmente.</li>
       </ul>
-      <p><code>JavaScript</code> <code>HTML5</code> <code>CSS3</code> <code>Cloudflare Pages Functions</code> <code>GitHub API</code></p>
-      <!-- Quando o repositório público e/ou vídeo estiverem prontos, adicione os links aqui:
-      <p><a href="URL_DO_REPO">Ver repositório público →</a> &nbsp;·&nbsp; <a href="URL_DO_VIDEO">Assistir vídeo →</a></p>
-      -->
+      <p><code>JavaScript</code> <code>HTML5</code> <code>CSS3</code> <code>Cloudflare Pages Functions</code></p>
+      <p>
+        <a href="https://github.com/LRGabrieldev/collection-store-demo"><b>Ver repositório público →</b></a>
+        &nbsp;·&nbsp;
+        <a href="https://github.com/LRGabrieldev/collection-store-demo#tour-animado-pela-aplica%C3%A7%C3%A3o">Tour animado →</a>
+        <!-- Quando o vídeo sair na @vot.tech, descomente:
+        &nbsp;·&nbsp;
+        <a href="URL_DO_VIDEO">Assistir vídeo →</a>
+        -->
+      </p>
+    </td>
+    <td width="42%" valign="middle" align="center">
+      <a href="https://github.com/LRGabrieldev/collection-store-demo">
+        <img src="https://raw.githubusercontent.com/LRGabrieldev/collection-store-demo/main/docs/preview-hero.png" alt="Preview da Collection Store — Vitrine interativa" width="100%" />
+      </a>
+      <br /><br />
+      <sub><a href="https://github.com/LRGabrieldev/collection-store-demo#tour-animado-pela-aplica%C3%A7%C3%A3o">Ver tour animado pelas 5 telas e código-fonte →</a></sub>
     </td>
   </tr>
 </table>
