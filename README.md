@@ -50,7 +50,10 @@
 
 Sou **João Gabriel Loureiro**, **Desenvolvedor Full Stack** e fundador da **[Vision Orbital Tech (VOT)](https://visionorbital-tech.vercel.app/)**.
 
-Construo produtos digitais completos — da direção visual e microinterações no front-end até arquiteturas em tempo real, automações com IA e deploy em edge. Na **VOT**, desenvolvo experiências web autorais, fluxos inteligentes de atendimento e sistemas sob medida voltados a resultado real, e compartilho os bastidores e projetos construídos nos vídeos do perfil **[@vot.tech](https://www.instagram.com/vot.tech/)**.
+Construo produtos digitais completos — da direção visual e microinterações no front-end até sistemas em tempo real, automações com IA e deploy em edge.
+
+> **Vision Orbital Tech** — Experiência digital, automação de atendimento e sistemas sob medida aplicados a resultados reais.
+> Acompanhe os projetos e bastidores nos vídeos da **[@vot.tech](https://www.instagram.com/vot.tech/)** e conheça a empresa em **[visionorbital-tech.vercel.app →](https://visionorbital-tech.vercel.app/)**
 
 | 01 · Experiências Web | 02 · Sistemas Sob Medida | 03 · Automação & Edge |
 | :--- | :--- | :--- |
@@ -66,61 +69,23 @@ Construo produtos digitais completos — da direção visual e microinterações
 
 ## Projetos em Destaque · Vitrine VOT
 
-Projetos reais desenvolvidos sob a marca **Vision Orbital Tech** e apresentados nos vídeos da **[@vot.tech](https://www.instagram.com/vot.tech/)**.
+Projetos apresentados nos vídeos da **[@vot.tech](https://www.instagram.com/vot.tech/)** — novos projetos serão adicionados aqui conforme forem publicados.
 
 <table>
   <tr>
-    <td width="50%" valign="top">
-      <h3>Collection Store</h3>
-      <p><sub><code>CASE · VÍDEO @VOT.TECH</code> &nbsp;·&nbsp; <code>ARQUITETURA ZERO-DB</code></sub></p>
-      <p>Vitrine e landing page personalizável com envio automático de pedidos para o WhatsApp e painel administrativo protegido na borda da Cloudflare — sem banco de dados.</p>
+    <td width="100%" valign="top">
+      <h3>Collection Store — Vitrine & Painel Admin sem Banco de Dados</h3>
+      <p><sub><code>CASE · VÍDEO @VOT.TECH</code> &nbsp;·&nbsp; <code>ARQUITETURA ZERO-DB</code> &nbsp;·&nbsp; <code>REPOSITÓRIO PÚBLICO EM BREVE</code></sub></p>
+      <p>Vitrine e landing page personalizável com geração automática de pedido no WhatsApp e painel administrativo protegido na borda da Cloudflare — operando sem banco de dados tradicional.</p>
       <ul>
-        <li><b>Diferencial:</b> publicação direta via commit atômico no GitHub, reduzindo custos de manutenção em ~97%.</li>
-        <li><b>Segurança:</b> autenticação na borda com sessão HMAC-SHA256 em cookie <code>HttpOnly</code> e proteção CSRF.</li>
+        <li><b>Arquitetura Zero-DB:</b> gerenciamento de produtos pelo painel <code>/painel/</code> com publicação via commits atômicos, reduzindo custos recorrentes em ~97%.</li>
+        <li><b>Segurança na borda:</b> autenticação via Cloudflare Pages Functions com sessão assinada (HMAC-SHA256 em cookie <code>HttpOnly</code>) e proteção CSRF.</li>
+        <li><b>Conversão direta:</b> seleção interativa de itens com resumo automático formatado direto para finalização no WhatsApp.</li>
       </ul>
       <p><code>JavaScript</code> <code>HTML5</code> <code>CSS3</code> <code>Cloudflare Pages Functions</code> <code>GitHub API</code></p>
-      <!-- Quando publicar o repo ou o vídeo, adicione os links aqui:
-      <p><a href="URL_DO_REPO">Repositório →</a> &nbsp;·&nbsp; <a href="URL_DO_VIDEO">Assistir vídeo →</a></p>
+      <!-- Quando o repositório público e/ou vídeo estiverem prontos, adicione os links aqui:
+      <p><a href="URL_DO_REPO">Ver repositório público →</a> &nbsp;·&nbsp; <a href="URL_DO_VIDEO">Assistir vídeo →</a></p>
       -->
-    </td>
-    <td width="50%" valign="top">
-      <h3>AnnaSync — Agenda Digital</h3>
-      <p><sub><code>SAAS · VÍDEO @VOT.TECH</code> &nbsp;·&nbsp; <code>REAL-TIME + IA</code></sub></p>
-      <p>Aplicação web SaaS para gestão profissional de agendas, compromissos e produtividade em nuvem com sincronização em tempo real e integração direta ao Google Calendar.</p>
-      <ul>
-        <li><b>Diferencial:</b> integração com Google Calendar e recursos inteligentes alimentados pela Gemini API.</li>
-        <li><b>Governança:</b> acesso fechado controlado por administrador com regras rígidas de segurança no Firestore.</li>
-      </ul>
-      <p><code>TypeScript</code> <code>React</code> <code>Vite</code> <code>Tailwind CSS</code> <code>Express</code> <code>Firebase</code> <code>Gemini API</code></p>
-      <!-- Quando publicar o repo ou o vídeo, adicione os links aqui:
-      <p><a href="URL_DO_REPO">Repositório →</a> &nbsp;·&nbsp; <a href="URL_DO_VIDEO">Assistir vídeo →</a></p>
-      -->
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>La Cantina — KDS & Gestão de Rodízio</h3>
-      <p><sub><code>SISTEMA REAL-TIME · VÍDEO @VOT.TECH</code> &nbsp;·&nbsp; <code>KDS</code></sub></p>
-      <p>Sistema ponta a ponta para restaurantes em modelo de rodízio, conectando cozinha, salão e gerência em tempo real via WebSockets.</p>
-      <ul>
-        <li><b>Cozinha & Salão:</b> fila de produção drag-and-drop com presets, gestão de praças e alertas automáticos de alergias/restrições.</li>
-        <li><b>Gerência:</b> planta de ocupação ao vivo, métricas de turno e histórico de expedientes com UI otimista.</li>
-      </ul>
-      <p><code>Next.js</code> <code>React</code> <code>TypeScript</code> <code>Tailwind CSS</code> <code>Supabase</code> <code>PostgreSQL</code></p>
-      <!-- Quando publicar o repo ou o vídeo, adicione os links aqui:
-      <p><a href="URL_DO_REPO">Repositório →</a> &nbsp;·&nbsp; <a href="URL_DO_VIDEO">Assistir vídeo →</a></p>
-      -->
-    </td>
-    <td width="50%" valign="top">
-      <h3>Vision Orbital Tech — Site Oficial</h3>
-      <p><sub><code>INSTITUCIONAL · AO VIVO</code> &nbsp;·&nbsp; <code>WEB 3D & MOTION</code></sub></p>
-      <p>Experiência web autoral da Vision Orbital Tech apresentando serviços de design digital, automação de atendimento com IA e sistemas sob medida.</p>
-      <ul>
-        <li><b>Experiência visual:</b> cena orbital 3D interativa (<code>Three.js</code>), animações coreografadas e scroll suave.</li>
-        <li><b>Conversão:</b> estimador interativo de pacotes integrado ao envio direto de briefing via WhatsApp.</li>
-      </ul>
-      <p><code>React</code> <code>JavaScript</code> <code>Vite</code> <code>Three.js</code> <code>GSAP</code> <code>Lenis</code></p>
-      <p><a href="https://visionorbital-tech.vercel.app/" target="_blank"><b>Acessar site oficial →</b></a></p>
     </td>
   </tr>
 </table>

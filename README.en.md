@@ -50,7 +50,10 @@
 
 I'm **João Gabriel Loureiro**, a **Full Stack Developer** and founder of **[Vision Orbital Tech (VOT)](https://visionorbital-tech.vercel.app/)**.
 
-I build end-to-end digital products — from visual direction and front-end micro-interactions to real-time architectures, AI-powered automations, and edge deployments. At **VOT**, I craft bespoke web experiences, intelligent customer workflows, and custom business systems focused on measurable outcomes, while documenting the builds and engineering behind them on **[@vot.tech](https://www.instagram.com/vot.tech/)**.
+I build end-to-end digital products — from visual direction and front-end micro-interactions to real-time systems, AI-powered automations, and edge deployments.
+
+> **Vision Orbital Tech** — Digital design, intelligent customer automation, and custom-built web systems focused on real outcomes.
+> Follow the builds and engineering behind our projects on **[@vot.tech](https://www.instagram.com/vot.tech/)** and visit the official company site at **[visionorbital-tech.vercel.app →](https://visionorbital-tech.vercel.app/)**
 
 | 01 · Web Experiences | 02 · Custom Systems | 03 · Automation & Edge |
 | :--- | :--- | :--- |
@@ -66,61 +69,23 @@ I build end-to-end digital products — from visual direction and front-end micr
 
 ## Featured Projects · VOT Showcase
 
-Real-world projects built under **Vision Orbital Tech** and featured in **[@vot.tech](https://www.instagram.com/vot.tech/)** videos.
+Projects featured in **[@vot.tech](https://www.instagram.com/vot.tech/)** videos — new builds will be added here as they are released.
 
 <table>
   <tr>
-    <td width="50%" valign="top">
-      <h3>Collection Store</h3>
-      <p><sub><code>CASE · @VOT.TECH VIDEO</code> &nbsp;·&nbsp; <code>ZERO-DB ARCHITECTURE</code></sub></p>
-      <p>Customizable storefront and landing page with automated WhatsApp checkout and an edge-protected admin panel on Cloudflare — running without any database.</p>
+    <td width="100%" valign="top">
+      <h3>Collection Store — Zero-DB Storefront & Edge Admin Panel</h3>
+      <p><sub><code>CASE · @VOT.TECH VIDEO</code> &nbsp;·&nbsp; <code>ZERO-DB ARCHITECTURE</code> &nbsp;·&nbsp; <code>PUBLIC REPO COMING SOON</code></sub></p>
+      <p>Customizable storefront and landing page with automated WhatsApp order checkout and an edge-protected admin panel on Cloudflare — running without a traditional database.</p>
       <ul>
-        <li><b>Highlight:</b> publishes updates directly via atomic GitHub commits, cutting recurring hosting/DB costs by ~97%.</li>
-        <li><b>Edge security:</b> Cloudflare Pages Functions with HMAC-SHA256 <code>HttpOnly</code> sessions and CSRF protection.</li>
+        <li><b>Zero-DB Architecture:</b> catalog management through <code>/painel/</code> publishing updates via atomic commits, cutting recurring hosting/DB costs by ~97%.</li>
+        <li><b>Edge Security:</b> Cloudflare Pages Functions authentication with signed HMAC-SHA256 <code>HttpOnly</code> sessions and CSRF protection.</li>
+        <li><b>Direct Conversion:</b> interactive product selection generating a formatted order summary sent straight to WhatsApp.</li>
       </ul>
       <p><code>JavaScript</code> <code>HTML5</code> <code>CSS3</code> <code>Cloudflare Pages Functions</code> <code>GitHub API</code></p>
-      <!-- When publishing the repo or video, add links here:
-      <p><a href="REPO_URL">Repository →</a> &nbsp;·&nbsp; <a href="VIDEO_URL">Watch video →</a></p>
+      <!-- When the public repo and/or video are ready, add links here:
+      <p><a href="REPO_URL">View public repository →</a> &nbsp;·&nbsp; <a href="VIDEO_URL">Watch video →</a></p>
       -->
-    </td>
-    <td width="50%" valign="top">
-      <h3>AnnaSync — Digital Agenda</h3>
-      <p><sub><code>SAAS · @VOT.TECH VIDEO</code> &nbsp;·&nbsp; <code>REAL-TIME + AI</code></sub></p>
-      <p>SaaS web application for professional scheduling, appointments, and cloud productivity with real-time synchronization and direct Google Calendar integration.</p>
-      <ul>
-        <li><b>Highlight:</b> seamless Google Calendar sync paired with smart productivity features powered by the Gemini API.</li>
-        <li><b>Governance:</b> closed-access model managed by admins with strict Firestore security rules.</li>
-      </ul>
-      <p><code>TypeScript</code> <code>React</code> <code>Vite</code> <code>Tailwind CSS</code> <code>Express</code> <code>Firebase</code> <code>Gemini API</code></p>
-      <!-- When publishing the repo or video, add links here:
-      <p><a href="REPO_URL">Repository →</a> &nbsp;·&nbsp; <a href="VIDEO_URL">Watch video →</a></p>
-      -->
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>La Cantina — KDS & Floor Operations</h3>
-      <p><sub><code>REAL-TIME SYSTEM · @VOT.TECH VIDEO</code> &nbsp;·&nbsp; <code>KDS</code></sub></p>
-      <p>End-to-end management system for all-you-can-eat pizza restaurants, synchronizing kitchen, dining floor, and management in real time over WebSockets.</p>
-      <ul>
-        <li><b>Kitchen & Floor:</b> drag-and-drop KDS production queue with presets, section routing, and allergy/restriction alerts.</li>
-        <li><b>Management:</b> live floor occupancy map, shift metrics, and end-of-shift reports with optimistic UI.</li>
-      </ul>
-      <p><code>Next.js</code> <code>React</code> <code>TypeScript</code> <code>Tailwind CSS</code> <code>Supabase</code> <code>PostgreSQL</code></p>
-      <!-- When publishing the repo or video, add links here:
-      <p><a href="REPO_URL">Repository →</a> &nbsp;·&nbsp; <a href="VIDEO_URL">Watch video →</a></p>
-      -->
-    </td>
-    <td width="50%" valign="top">
-      <h3>Vision Orbital Tech — Official Website</h3>
-      <p><sub><code>OFFICIAL · LIVE</code> &nbsp;·&nbsp; <code>3D WEB & MOTION</code></sub></p>
-      <p>Official web experience for Vision Orbital Tech showcasing digital design, AI-assisted customer automation, and custom-built web systems.</p>
-      <ul>
-        <li><b>Visual craft:</b> interactive 3D orbital emblem scene (<code>Three.js</code>), choreographed animations, and smooth scrolling.</li>
-        <li><b>Conversion:</b> interactive project package estimator connected directly to WhatsApp briefing dispatch.</li>
-      </ul>
-      <p><code>React</code> <code>JavaScript</code> <code>Vite</code> <code>Three.js</code> <code>GSAP</code> <code>Lenis</code></p>
-      <p><a href="https://visionorbital-tech.vercel.app/" target="_blank"><b>Visit live website →</b></a></p>
     </td>
   </tr>
 </table>
