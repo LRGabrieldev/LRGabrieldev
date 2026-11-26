@@ -101,6 +101,39 @@ Projects featured in **[@vot.tech](https://www.instagram.com/vot.tech/)** videos
       <sub><a href="https://github.com/LRGabrieldev/collection-store-demo#tour-animado-pela-aplica%C3%A7%C3%A3o">View 5-screen animated tour & source code →</a></sub>
     </td>
   </tr>
+  <tr>
+    <td width="58%" valign="top">
+      <h3><a href="https://github.com/LRGabrieldev/antigravity-dev-kit">Antigravity Dev Kit — AI Coding Agent Standards & Security</a></h3>
+      <p><sub><code>OPEN SOURCE · APACHE-2.0</code> &nbsp;·&nbsp; <code>AI AGENTS</code> &nbsp;·&nbsp; <code>GLOBAL & LOCAL</code></sub></p>
+      <p>Global and local standardization kit for AI coding agents (<b>Antigravity</b>, <b>Claude Code</b>, <b>Codex</b>, and <b>Gemini CLI</b>) — covering project scaffolding through pre-Git security audits with an automated installer.</p>
+      <ul>
+        <li><b>Project Blueprint (VOT 3D/Motion & SaaS):</b> standardized setup for 60fps 3D/motion landing pages (<code>Three.js</code>, <code>GSAP</code>, <code>Lenis</code>) and Full Stack web systems (<code>Next.js</code> + <code>Supabase</code>).</li>
+        <li><b>Autonomous Research:</b> integrated <b>Agent Reach</b> workflow via <code>uv</code> for reading docs, GitHub, YouTube transcripts, and dynamic pages.</li>
+        <li><b>Pre-Git Security:</b> mandatory auditing with <b>NVIDIA SkillSpector</b> (71 patterns across 17 categories) before installing skills/MCPs or pushing code.</li>
+      </ul>
+      <p><code>PowerShell</code> <code>AI Agents</code> <code>Rules &amp; Skills</code> <code>uv</code> <code>Agent Reach</code> <code>NVIDIA SkillSpector</code></p>
+      <p>
+        <a href="https://github.com/LRGabrieldev/antigravity-dev-kit"><b>View public repository →</b></a>
+        &nbsp;·&nbsp;
+        <a href="https://github.com/LRGabrieldev/antigravity-dev-kit#objetivo-do-reposit%C3%B3rio">Docs &amp; setup guide →</a>
+        <!-- When the video is published on @vot.tech, uncomment:
+        &nbsp;·&nbsp;
+        <a href="VIDEO_URL">Watch video →</a>
+        -->
+      </p>
+    </td>
+    <td width="42%" valign="middle" align="center">
+      <a href="https://github.com/LRGabrieldev/antigravity-dev-kit">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/LRGabrieldev/antigravity-dev-kit/main/assets/banner-dark.svg" />
+          <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/LRGabrieldev/antigravity-dev-kit/main/assets/banner-light.svg" />
+          <img src="https://raw.githubusercontent.com/LRGabrieldev/antigravity-dev-kit/main/assets/banner-dark.svg" alt="Antigravity Dev Kit preview — Rules, Skills, Pre-Git Security, and Autonomous Research" width="100%" />
+        </picture>
+      </a>
+      <br /><br />
+      <sub><a href="https://github.com/LRGabrieldev/antigravity-dev-kit">Explore rules, skills, <code>install.ps1</code>, and architecture →</a></sub>
+    </td>
+  </tr>
 </table>
 
 <br />
